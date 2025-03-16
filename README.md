@@ -90,7 +90,13 @@ Configure as variáveis de ambiente necessárias para a aplicação:
 
 Após configurar o ambiente, siga os passos abaixo para executar a aplicação:
 
-1. **Inicie o servidor de desenvolvimento do Laravel**:
+1. **Carregando Dados dos seeders**:
+
+    ```bash
+    php artisan db:seed
+    ```
+
+2. **Inicie o servidor de desenvolvimento do Laravel**:
 
     ```bash
     php artisan serve
